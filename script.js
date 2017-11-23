@@ -16,6 +16,6 @@ class Profile extends User {
 	}
 
 	showMe() {
-		return super.showMe() + ' and ' + this.sex;
+		return `${this.name} ${this.age} ${this.sex}`;
 	}
 }
